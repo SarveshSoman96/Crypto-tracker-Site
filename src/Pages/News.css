@@ -1,0 +1,16 @@
+.news_container{
+    padding: 2rem 0;
+}
+
+.latest_news_block{
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 5rem;
+}
+
+.news_detail{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
